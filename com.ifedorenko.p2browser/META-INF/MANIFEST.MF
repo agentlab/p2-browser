@@ -6,21 +6,21 @@ Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: com.ifedorenko.p2browser.Activator
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
- org.eclipse.equinox.p2.metadata.repository;bundle-version="1.1.100",
- org.eclipse.equinox.p2.core;bundle-version="2.1.0",
- org.eclipse.ui.forms;bundle-version="3.5.100",
- org.eclipse.equinox.p2.repository;bundle-version="2.1.0",
- org.eclipse.equinox.p2.metadata;bundle-version="2.1.0",
- org.eclipse.equinox.p2.artifact.repository;bundle-version="1.1.100",
- org.eclipse.equinox.simpleconfigurator;bundle-version="1.0.200",
- org.eclipse.equinox.ds;bundle-version="1.3.0",
- org.eclipse.ecf.filetransfer;bundle-version="4.0.0",
- org.eclipse.equinox.p2.transport.ecf;bundle-version="1.0.0",
- org.eclipse.equinox.p2.director;bundle-version="2.1.0",
- org.eclipse.equinox.p2.engine;bundle-version="2.1.0",
- org.eclipse.equinox.p2.updatesite;bundle-version="1.0.300"
+ org.eclipse.equinox.p2.metadata.repository,
+ org.eclipse.equinox.p2.core,
+ org.eclipse.ui.forms,
+ org.eclipse.equinox.p2.repository,
+ org.eclipse.equinox.p2.metadata,
+ org.eclipse.equinox.p2.artifact.repository,
+ org.eclipse.equinox.simpleconfigurator,
+ org.eclipse.equinox.ds,
+ org.eclipse.ecf.filetransfer,
+ org.eclipse.equinox.p2.transport.ecf,
+ org.eclipse.equinox.p2.director,
+ org.eclipse.equinox.p2.engine,
+ org.eclipse.equinox.p2.updatesite
 Bundle-ActivationPolicy: lazy
-Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Export-Package: com.ifedorenko.p2browser;x-internal:=true,
  com.ifedorenko.p2browser.model;x-internal:=true,
  com.ifedorenko.p2browser.views;x-internal:=true
